@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
+    <entry loc="/snap/eclipse/124/usr/lib/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.7.v20250502-0916" stamp="1749563312000"/>
+    <entry loc="/snap/eclipse/124/usr/lib/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.7.v20250502-0916/jre" stamp="1749563312000"/>
     <entry loc="C:\Users\Jelle\Documents\Hogent - Software\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551" stamp="1725513568000"/>
     <entry loc="C:\Users\Jelle\Documents\Hogent - Software\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre" stamp="1725513568000"/>
+    <entry loc="/usr/lib/jvm/java-21-openjdk-amd64" stamp="1750929808402"/>
 </dirs>
