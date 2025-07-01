@@ -1,0 +1,12 @@
+package domain;
+
+public class Captcha {
+	private String content;
+
+	public Captcha(String content) {
+		
+	}
+
+	public int calculateSumOfDoubledDigits()
+
+}

@@ -1,0 +1,13 @@
+package cui;
+
+public class CaptchaApp {
+	private final DomainController dc;
+
+	public CaptchaApp(DomainController dc) {
+		this.dc = dc;
+	}
+
+	public void start() {
+
+	}
+}

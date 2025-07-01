@@ -1,0 +1,17 @@
+package domain;
+
+public class DomainController {
+	private Captcha captcha;
+
+	public void enterPuzzleInput(String input) throws IllegalArgumentException {
+		captcha = new Captcha(input);
+	}
+
+	public int calculateSumOfDoubleDigits() {
+		return new CaptchaSolver(captcha).calculateSumOfDoubleDigits();
+	}
+
+	public int calculateSumOfOpposites() {
+		return new CaptchaSolver(captcha).calculateSumOfOpposites();
+	}
+}

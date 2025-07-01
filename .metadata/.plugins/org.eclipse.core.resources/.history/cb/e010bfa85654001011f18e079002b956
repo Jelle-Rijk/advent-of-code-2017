@@ -1,0 +1,24 @@
+package gui;
+
+import domain.DomainController;
+import javafx.scene.control.TextArea;
+import javafx.scene.layout.VBox;
+
+public class PuzzleInputScreen extends VBox {
+	private final DomainController dc;
+
+	private TextArea txaInput;
+
+	public PuzzleInputScreen(DomainController dc) {
+
+	}
+
+	private void buildGUI() {
+
+	}
+
+	private void showException(Exception e) {
+
+	}
+
+}

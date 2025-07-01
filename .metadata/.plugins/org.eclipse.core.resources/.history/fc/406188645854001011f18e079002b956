@@ -1,0 +1,27 @@
+package domain;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class CaptchaSolver {
+	private final Captcha c;
+
+	public CaptchaSolver(Captcha c) {
+		if (c == null)
+			throw new IllegalArgumentException("No captcha was set");
+		this.c = c;
+	}
+
+	public int calculateSumOfDoubleDigits() {
+		Pattern pattern = Pattern.compile("(\\d)(?=\\1)");
+		Matcher doubleMatcher = pattern.matcher(c.getContent());
+
+		int sum = 0;
+		while (doubleMatcher.find()) {
+			Integer.parseInt(doubleMatcher.group());
+		}
+
+		return sum;
+	}
+
+}

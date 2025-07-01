@@ -1,0 +1,11 @@
+package uiElements;
+
+public class PuzzleInputScreen {
+	public PuzzleInputScreen() {
+
+	}
+
+	private void buildGUI() {
+
+	}
+}
