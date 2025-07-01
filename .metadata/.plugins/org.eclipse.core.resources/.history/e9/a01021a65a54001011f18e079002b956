@@ -1,0 +1,31 @@
+package gui;
+
+import domain.DomainController;
+import javafx.scene.control.TextArea;
+import javafx.scene.layout.BorderPane;
+
+public class MainScreen extends BorderPane {
+
+	TextArea txaCaptcha;
+
+	public MainScreen(DomainController dc) {
+
+	}
+
+	private void buildGUI() {
+
+	}
+
+	private void buildCaptchaPane() {
+		txaCaptcha = new TextArea();
+	}
+
+	private void buildTestPanel() {
+
+	}
+
+	private void update() {
+txa.
+	}
+
+}

@@ -1,0 +1,18 @@
+package domain;
+
+import java.util.regex.Pattern;
+
+public class CaptchaSolver {
+	private final Captcha c;
+
+	public CaptchaSolver(Captcha c) {
+		if (c == null)
+			throw new IllegalArgumentException("No captcha was set");
+		this.c = c;
+	}
+
+	public int calculateSumOfDoubleDigits() {
+		Pattern pattern = Pattern.compile("(\\d)(?=\\1)");
+	}
+
+}

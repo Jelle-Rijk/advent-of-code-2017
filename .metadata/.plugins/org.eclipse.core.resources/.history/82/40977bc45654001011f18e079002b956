@@ -1,0 +1,32 @@
+package gui;
+
+import domain.DomainController;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
+import javafx.scene.layout.VBox;
+
+public class PuzzleInputScreen extends VBox {
+	private final DomainController dc;
+
+	private TextArea txaInput;
+	private Label lblError;
+
+	public PuzzleInputScreen(DomainController dc) {
+		Label prompts = new Label("Please enter your puzzle input");
+		txaInput = new TextArea("Puzzle input");
+
+	}
+
+	private void buildGUI() {
+
+	}
+
+	private void submit() {
+
+	}
+
+	private void showException(Exception e) {
+
+	}
+
+}
