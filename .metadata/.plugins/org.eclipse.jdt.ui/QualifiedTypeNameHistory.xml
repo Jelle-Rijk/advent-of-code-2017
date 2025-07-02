@@ -13,8 +13,10 @@
     <fullyQualifiedTypeName name="javafx.scene.control.Label"/>
     <fullyQualifiedTypeName name="javafx.application.Application"/>
     <fullyQualifiedTypeName name="com.jellerijk.aoc17.projectpicker.persistence.AppLoader"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="gui.MainScreen"/>
     <fullyQualifiedTypeName name="com.jellerijk.aoc17.projectpicker.gui.MainScreen"/>
     <fullyQualifiedTypeName name="com.jellerijk.aoc17.day1.main.Startup"/>
+    <fullyQualifiedTypeName name="com.jellerijk.aoc2017.launcher.java.persistence.AppletMapper"/>
+    <fullyQualifiedTypeName name="com.jellerijk.aoc2017.launcher.java.domain.Applet"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
