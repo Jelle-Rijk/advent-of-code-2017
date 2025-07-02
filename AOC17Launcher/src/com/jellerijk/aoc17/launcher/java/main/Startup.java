@@ -14,12 +14,17 @@ public class Startup extends Application {
 	private static List<Launchable> apps;
 
 	public static void main(String[] args) {
-		apps = AppLoader.getLaunchables(args);
+
 		launch(args);
+	}
+
+	public static void launchApp(Stage stage) {
+		new Startup().start(stage);
 	}
 
 	@Override
 	public void start(Stage stage) throws Exception {
+		apps = AppLoader.getLaunchables();
 		MainScreen root = new MainScreen(apps);
 		Scene scene = new Scene(root);
 

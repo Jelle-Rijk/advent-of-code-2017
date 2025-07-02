@@ -2,9 +2,7 @@
 <workingSetManager>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1751136709683_0" label="Java Main Sources" name="Java Main Sources"/>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1751136709699_1" label="Java Test Sources" name="Java Test Sources"/>
-<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1751137505682_4" label="Generic" name="Generic">
-<item elementID="=AOC17Launcher" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1751137505682_4" label="Generic" name="Generic"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1751136710268_2" label="Window Working Set" name="Aggregate for window 1751136710268"/>
 <mruList name="Generic"/>
 </workingSetManager>
