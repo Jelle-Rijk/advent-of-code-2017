@@ -4,4 +4,6 @@ module day2 {
 
 	opens main to javafx.graphics;
 	opens gui to javafx.graphics;
+
+	exports main;
 }

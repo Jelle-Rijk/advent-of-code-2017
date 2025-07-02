@@ -1,7 +1,0 @@
-package main;
-
-import javafx.application.Application;
-
-public class Startup extends Application {
-
-}

@@ -1,6 +1,0 @@
-
-module day1 {
-	requires transitive javafx.controls;
-	
-	opens gui to javafx.graphics;
-}

@@ -1,9 +1,0 @@
-package domain;
-
-public class DomainController {
-	private Captcha captcha;
-
-	public void setCaptcha() {
-
-	}
-}
