@@ -1,11 +1,9 @@
 package com.jellerijk.aoc2017.launcher.java.main;
 
-import java.util.List;
-
-import com.jellerijk.aoc2017.launcher.java.domain.Applet;
-import com.jellerijk.aoc2017.launcher.java.persistence.AppletMapper;
+import com.jellerijk.aoc2017.launcher.java.gui.LaunchScreen;
 
 import javafx.application.Application;
+import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Startup extends Application {
@@ -14,10 +12,15 @@ public class Startup extends Application {
 		launch(args);
 	}
 
+	@SuppressWarnings("exports")
 	@Override
 	public void start(Stage stage) throws Exception {
-		List<Applet> apps = AppletMapper.loadApplets();
-		apps.getFirst().launch();
+		LaunchScreen root = new LaunchScreen();
+		
+		Scene scene = new Scene(root);
+		stage.setScene(scene);
+		stage.setTitle("Launcher");
+		stage.show();
 	}
 
 }
