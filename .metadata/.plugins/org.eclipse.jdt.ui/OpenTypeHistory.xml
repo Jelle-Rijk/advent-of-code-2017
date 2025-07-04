@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
+    <typeInfo handle="=Common Utils/\/home\/Jelle\/Documents\/JavaFX SDK\/openjfx-21.0.7_linux-x64_bin-sdk\/javafx-sdk-21.0.7\/lib\/javafx.graphics.jar=/module=/true=/&lt;javafx.scene(Node.class[Node" modifiers="1057" timestamp="1744027360000"/>
+    <typeInfo handle="=Common Utils/src&lt;com.jellerijk.aoc2017.common.java.gui.inputs{InputElement.java[InputElement" modifiers="1025" timestamp="1751623906317"/>
+    <typeInfo handle="=Common Utils/src&lt;com.jellerijk.aoc2017.common.java.interfaces{Subscriber.java[Subscriber" modifiers="513" timestamp="1751627053634"/>
+    <typeInfo handle="=Common Utils/\/home\/Jelle\/Documents\/JavaFX SDK\/openjfx-21.0.7_linux-x64_bin-sdk\/javafx-sdk-21.0.7\/lib\/javafx.graphics.jar=/module=/true=/&lt;javafx.scene(Group.class[Group" modifiers="33" timestamp="1744027360000"/>
+    <typeInfo handle="=Common Utils/src&lt;com.jellerijk.aoc2017.common.java.interfaces{OutputSubscriber.java[OutputSubscriber" modifiers="513" timestamp="1751627284655"/>
+    <typeInfo handle="=Common Utils/\/snap\/eclipse\/124\/usr\/lib\/eclipse\/plugins\/junit-platform-engine_1.12.2.jar=/javadoc_location=/http:\/\/junit.org\/junit5\/docs\/current\/api\/=/=/module=/true=/&lt;org.junit.platform.engine.reporting(OutputDirectoryProvider.class[OutputDirectoryProvider" modifiers="1537" timestamp="1749563303000"/>
+    <typeInfo handle="=Common Utils/src&lt;com.jellerijk.aoc2017.common.java.interfaces{AOCApp.java[AOCApp" modifiers="513" timestamp="1751619989000"/>
     <typeInfo handle="=AOC2017Launcher/\/home\/Jelle\/Documents\/JavaFX SDK\/openjfx-21.0.7_linux-x64_bin-sdk\/javafx-sdk-21.0.7\/lib\/javafx.graphics.jar=/module=/true=/&lt;javafx.application(Application.class[Application" modifiers="1057" timestamp="1744027360000"/>
 </typeInfoHistroy>

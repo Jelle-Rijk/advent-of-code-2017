@@ -47,6 +47,8 @@ public class OutputTextField extends VBox implements OutputSubscriber {
 		}
 
 		display = new TextField();
+		display.setEditable(true);
+		display.setDisable(true);
 		if (prompt != null)
 			display.setPromptText(prompt);
 		getChildren().add(display);

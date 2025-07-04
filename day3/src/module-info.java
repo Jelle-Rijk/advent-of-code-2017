@@ -1,12 +1,8 @@
-/**
- * 
- */
-/**
- * 
- */
-module day3 {
+
+module com.jellerijk.aoc2017.solutions.day3 {
+	requires transitive com.jellerijk.aoc2017.common;
 	requires transitive javafx.controls;
 
-	opens main to javafx.graphics;
-	opens gui to javafx.graphics;
+	exports com.jellerijk.aoc2017.solutions.day3.main;
+	exports com.jellerijk.aoc2017.solutions.day3.gui to javafx.graphics;
 }

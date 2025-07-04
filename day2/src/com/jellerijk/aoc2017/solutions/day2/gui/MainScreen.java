@@ -12,7 +12,7 @@ import javafx.scene.layout.VBox;
 public class MainScreen extends BorderPane {
 	private final DomainController dc;
 
-	public MainScreen(DomainController dc) {
+	public MainScreen(@SuppressWarnings("exports") DomainController dc) {
 		this.dc = dc;
 		buildGUI();
 	}
