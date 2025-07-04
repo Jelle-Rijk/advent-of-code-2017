@@ -1,9 +1,7 @@
 
-module day2 {
-	requires transitive javafx.controls;
+module com.jellerijk.aoc2017.solutions.day2 {
+	requires com.jellerijk.aoc2017.common;
 
-	opens main to javafx.graphics;
-	opens gui to javafx.graphics;
-
-	exports main;
+	exports com.jellerijk.aoc2017.solutions.day2.main;
+	exports com.jellerijk.aoc2017.solutions.day2.gui to javafx.graphics;
 }

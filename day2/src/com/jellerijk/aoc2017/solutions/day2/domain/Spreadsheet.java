@@ -1,4 +1,4 @@
-package domain;
+package com.jellerijk.aoc2017.solutions.day2.domain;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,5 +33,4 @@ public class Spreadsheet {
 	private final void setRows(List<SpreadsheetRow> rows) {
 		this.rows = rows;
 	}
-
 }

@@ -1,4 +1,4 @@
-package domain;
+package com.jellerijk.aoc2017.solutions.day2.domain;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -85,5 +85,4 @@ public class SpreadsheetRow {
 	public String toString() {
 		return numbers.stream().map(number -> number.toString()).collect(Collectors.joining("\t"));
 	}
-
 }
